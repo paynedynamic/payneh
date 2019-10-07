@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/simplelightbox.min.css">
+    <link rel="stylesheet" href="css/webfonts/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Tooth Fairy - Dr H E Payne</title>
+</head>
+<body id="home">
+    <nav class="navbar">
+      <div class="container">
+        <h1 class="logo">Tooth Fairy</h1>
+        <ul class="nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- SHOWCASE -->
+    <section class="section-a">
+      <div class="container">
+        <div>
+          <h1>Dental Care, with Love</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, eveniet laborum corrupti illo consequatur voluptatibus non? Incidunt repudiandae porro aperiam?</p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+        <img src="img/Showcase5.jpg" alt="">
+      </div>
+    </section>
+
+    <!-- OVERLAY TEXT -->
+    <section class="section-b">
+      <div class="overlay">
+        <div class="section-b-inner">
+          <h3>Welcome to our Rooms</h3>
+          <h2>For the latest in modern day dental care</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis delectus similique facilis autem laboriosam tempore ex error dignissimos maiores doloribus.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY-->
+    <section class="section-c">
+      <div class="gallery">
+        <a href="img/Showcase2.jpg" class="big"><img src="img/Showcase2.jpg" alt=""></a>
+        <a href="img/Showcase3.jpg" class="big"><img src="img/Showcase3.jpg" alt=""></a>
+        <a href="img/Showcase9.jpg" class="big"><img src="img/Showcase9.jpg" alt=""></a>
+        <a href="img/Showcase4.jpg" class="big"><img src="img/Showcase4.jpg" alt=""></a>
+        <a href="img/Showcase6.jpg" class="big"><img src="img/Showcase6.jpg" alt=""></a>
+        <a href="img/Showcase1.jpg" class="big"><img src="img/Showcase1.jpg" alt=""></a>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="section-footer">
+      <div class="container">
+        <div>
+          <h2>Follow Us</h2>
+          <a href="http://twitter.com"><i class="fab fa-twitter fa-2x"></i></a>
+          <a href="http://facebook.com"><i class="fab fa-facebook fa-2x"></i></a>
+          <a href="http://youtube.com"><i class="fab fa-youtube fa-2x"></i></a>
+        </div>
+        <div>
+          <h3>Company Info</h3>
+          <ul>
+            <li><a href="#">All Services</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Blog Posts</h3>
+          <ul>
+            <li><a href="#">Post one</a></li>
+            <li><a href="#">Post Two</a></li>
+            <li><a href="#">Post Three</a></li>
+            <li><a href="#">Post Four</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Subscribe</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <form name="email-form" method="POST" data-netlify="true">
+            <div class="email-form">
+              <span class="form-control-wrap">
+                <input 
+                  type="email"
+                  name="email"
+                  id="email"
+                  size="40"
+                  class="form-control"
+                  placeholder="Email">
+              </span>
+              <button type="submit" class="form-control submit"> 
+                <i class="fas fa-chevron-right"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/simpleLightbox.min.js"></script>    
+    <script>
+        $(function() {
+            const $gallery = $('.gallery a').simpleLightbox();
+        });
+    </script>
+</body>
+</html>
